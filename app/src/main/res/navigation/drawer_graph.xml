@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_graph"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/artistsFragment"
+        android:name="com.esardo.p3_navigation_splashscreen.ArtistsFragment"
+        android:label="Artists"
+        tools:layout="@layout/fragment_artists" />
+    <activity
+        android:id="@+id/bottom_layout"
+        android:name="com.esardo.p3_navigation_splashscreen.BottomActivity"
+        android:label="Schedule"
+        tools:layout="@layout/activity_bottom" />
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.esardo.p3_navigation_splashscreen.ContactFragment"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.esardo.p3_navigation_splashscreen.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+</navigation>

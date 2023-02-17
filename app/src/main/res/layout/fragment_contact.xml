@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactFragment"
+    android:background="@color/black">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvContact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contact"
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/artistsText"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/tvContactUs"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvContactUs"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:textAlignment="center"
+                android:text="@string/ContactUs"
+                android:textColor="@color/white"
+                android:textSize="@dimen/appText"
+                app:layout_constraintBottom_toTopOf="@id/etName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvContact" />
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                android:paddingBottom="10dp"
+                android:background="@color/white"
+                android:hint="Name"
+                android:textSize="@dimen/appText"
+                app:layout_constraintBottom_toTopOf="@id/etMail"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvContactUs" />
+
+            <EditText
+                android:id="@+id/etMail"
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                android:paddingBottom="10dp"
+                android:background="@color/white"
+                android:hint="e-mail"
+                android:textSize="@dimen/appText"
+                app:layout_constraintBottom_toTopOf="@id/etMessage"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etName" />
+
+            <EditText
+                android:id="@+id/etMessage"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="Write your text here..."
+                android:textSize="@dimen/appText"
+                android:minLines="10"
+                android:gravity="top|left"
+                android:maxLines="15"
+                app:layout_constraintBottom_toTopOf="@id/btnSend"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etMail" />
+
+            <Button
+                android:id="@+id/btnSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/send"
+                android:backgroundTint="@color/red"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/etMessage"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</FrameLayout>

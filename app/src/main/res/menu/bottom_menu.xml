@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/saturdayScheduleFragment"
+        android:icon="@drawable/baseline_today_24"
+        android:title="@string/saturday" />
+
+    <item
+        android:id="@+id/sundayScheduleFragment"
+        android:icon="@drawable/baseline_today_24"
+        android:title="@string/sunday" />
+</menu>

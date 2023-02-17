@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="appText">18sp</dimen>
+    <dimen name="artistsText">25sp</dimen>
+    <dimen name="artistWidth">235dp</dimen>
+    <dimen name="homeText">24sp</dimen>
+</resources>

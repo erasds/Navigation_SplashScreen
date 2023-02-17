@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SaturdayScheduleFragment"
+    android:background="@color/black">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvSaturday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/saturday22"
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/artistsText"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/tvSatArtist1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvSatHour1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hour1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/artistsText"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/tvSatHour2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/tvSatArtist1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvSatArtist1"
+                android:layout_width="@dimen/artistWidth"
+                android:layout_height="wrap_content"
+                android:text="@string/artist8"
+                android:textColor="@color/red"
+                android:textSize="@dimen/artistsText"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toTopOf="@id/tvSatArtist2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tvSatHour1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvSatHour2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hour2"
+                android:textColor="@color/white"
+                android:textSize="@dimen/artistsText"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/tvSatHour3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/tvSatArtist2"
+                app:layout_constraintTop_toBottomOf="@id/tvSatHour1" />
+
+            <TextView
+                android:id="@+id/tvSatArtist2"
+                android:layout_width="@dimen/artistWidth"
+                android:layout_height="wrap_content"
+                android:text="@string/artist6"
+                android:textColor="@color/red"
+                android:textSize="@dimen/artistsText"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toTopOf="@id/tvSatArtist3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tvSatHour2"
+                app:layout_constraintTop_toBottomOf="@id/tvSatArtist1" />
+
+            <TextView
+                android:id="@+id/tvSatHour3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hour3"
+                android:textColor="@color/white"
+                android:textSize="@dimen/artistsText"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/tvSatHour4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/tvSatArtist3"
+                app:layout_constraintTop_toBottomOf="@id/tvSatHour2" />
+
+            <TextView
+                android:id="@+id/tvSatArtist3"
+                android:layout_width="@dimen/artistWidth"
+                android:layout_height="wrap_content"
+                android:text="@string/artist7"
+                android:textColor="@color/red"
+                android:textSize="@dimen/artistsText"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toTopOf="@id/tvSatArtist4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tvSatHour3"
+                app:layout_constraintTop_toBottomOf="@id/tvSatArtist2" />
+
+            <TextView
+                android:id="@+id/tvSatHour4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hour4"
+                android:textColor="@color/white"
+                android:textSize="@dimen/artistsText"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/tvSatHour5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/tvSatArtist4"
+                app:layout_constraintTop_toBottomOf="@id/tvSatHour3" />
+
+            <TextView
+                android:id="@+id/tvSatArtist4"
+                android:layout_width="@dimen/artistWidth"
+                android:layout_height="wrap_content"
+                android:text="@string/artist2"
+                android:textColor="@color/red"
+                android:textSize="@dimen/artistsText"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toTopOf="@id/tvSatArtist5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tvSatHour4"
+                app:layout_constraintTop_toBottomOf="@id/tvSatArtist3" />
+
+            <TextView
+                android:id="@+id/tvSatHour5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hour5"
+                android:textColor="@color/white"
+                android:textSize="@dimen/artistsText"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/tvSatArtist5"
+                app:layout_constraintTop_toBottomOf="@id/tvSatHour4" />
+
+            <TextView
+                android:id="@+id/tvSatArtist5"
+                android:layout_width="@dimen/artistWidth"
+                android:layout_height="wrap_content"
+                android:text="@string/artist1"
+                android:textColor="@color/red"
+                android:textSize="@dimen/artistsText"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tvSatHour5"
+                app:layout_constraintTop_toBottomOf="@id/tvSatArtist4" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</FrameLayout>

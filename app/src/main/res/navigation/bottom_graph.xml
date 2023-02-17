@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_graph"
+    app:startDestination="@id/saturdayScheduleFragment">
+    <fragment
+        android:id="@+id/saturdayScheduleFragment"
+        android:name="com.esardo.p3_navigation_splashscreen.SaturdayScheduleFragment"
+        android:label="Saturday schedule"
+        tools:layout="@layout/fragment_saturday_schedule" />
+    <fragment
+        android:id="@+id/sundayScheduleFragment"
+        android:name="com.esardo.p3_navigation_splashscreen.SundayScheduleFragment"
+        android:label="Sunday schedule"
+        tools:layout="@layout/fragment_sunday_schedule" />
+</navigation>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ArtistsFragment"
+    android:background="@color/black">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvArtistsTitle"
+                android:layout_width="293dp"
+                android:layout_height="55dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/artistsTitle"
+                android:textAlignment="center"
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/artistsText"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/tvArtist1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvArtist1"
+                android:layout_width="293dp"
+                android:layout_height="55dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/artist1"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="@dimen/artistsText"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/tvArtistDesc"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvArtistsTitle" />
+
+            <TextView
+                android:id="@+id/tvArtistDesc"
+                android:layout_width="399dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/artist1Desc"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/appText"
+                app:layout_constraintBottom_toTopOf="@id/tvArtist2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvArtist1" />
+
+            <TextView
+                android:id="@+id/tvArtist2"
+                android:layout_width="293dp"
+                android:layout_height="55dp"
+                android:paddingTop="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/artist2"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="@dimen/artistsText"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/tvArtist2Desc"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvArtistDesc" />
+
+            <TextView
+                android:id="@+id/tvArtist2Desc"
+                android:layout_width="399dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/artist2Desc"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/appText"
+                app:layout_constraintBottom_toTopOf="@id/tvArtist3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvArtist2" />
+
+            <TextView
+                android:id="@+id/tvArtist3"
+                android:layout_width="293dp"
+                android:layout_height="55dp"
+                android:paddingTop="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/artist3"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="@dimen/artistsText"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/tvArtist3Desc"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvArtist2Desc" />
+
+            <TextView
+                android:id="@+id/tvArtist3Desc"
+                android:layout_width="399dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/artist3Desc"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/appText"
+                app:layout_constraintBottom_toTopOf="@id/tvArtist4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvArtist3" />
+
+            <TextView
+                android:id="@+id/tvArtist4"
+                android:layout_width="293dp"
+                android:layout_height="55dp"
+                android:paddingTop="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/artist4"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="@dimen/artistsText"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/tvArtist4Desc"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvArtist3Desc" />
+
+            <TextView
+                android:id="@+id/tvArtist4Desc"
+                android:layout_width="399dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/artist4Desc"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/appText"
+                app:layout_constraintBottom_toTopOf="@id/tvArtist5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvArtist4" />
+
+            <TextView
+                android:id="@+id/tvArtist5"
+                android:layout_width="293dp"
+                android:layout_height="55dp"
+                android:paddingTop="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/artist5"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="@dimen/artistsText"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/tvArtist5Desc"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvArtist4Desc" />
+
+            <TextView
+                android:id="@+id/tvArtist5Desc"
+                android:layout_width="399dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/artist5Desc"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/appText"
+                app:layout_constraintBottom_toTopOf="@id/tvArtist6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvArtist5" />
+
+            <TextView
+                android:id="@+id/tvArtist6"
+                android:layout_width="293dp"
+                android:layout_height="55dp"
+                android:paddingTop="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/artist6"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="@dimen/artistsText"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/tvArtist6Desc"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvArtist5Desc" />
+
+            <TextView
+                android:id="@+id/tvArtist6Desc"
+                android:layout_width="399dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/artist6Desc"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/appText"
+                app:layout_constraintBottom_toTopOf="@id/tvArtist7"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvArtist6" />
+
+            <TextView
+                android:id="@+id/tvArtist7"
+                android:layout_width="293dp"
+                android:layout_height="55dp"
+                android:paddingTop="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/artist7"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="@dimen/artistsText"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/tvArtist7Desc"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvArtist6Desc" />
+
+            <TextView
+                android:id="@+id/tvArtist7Desc"
+                android:layout_width="399dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/artist7Desc"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/appText"
+                app:layout_constraintBottom_toTopOf="@id/tvArtist8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvArtist7" />
+
+            <TextView
+                android:id="@+id/tvArtist8"
+                android:layout_width="293dp"
+                android:layout_height="55dp"
+                android:paddingTop="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/artist8"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="@dimen/artistsText"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/tvArtist8Desc"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvArtist7Desc" />
+
+            <TextView
+                android:id="@+id/tvArtist8Desc"
+                android:layout_width="399dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/artist8Desc"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/appText"
+                app:layout_constraintBottom_toTopOf="@id/tvArtist9"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvArtist8" />
+
+            <TextView
+                android:id="@+id/tvArtist9"
+                android:layout_width="293dp"
+                android:layout_height="55dp"
+                android:paddingTop="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/artist9"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="@dimen/artistsText"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/tvArtist9Desc"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvArtist8Desc" />
+
+            <TextView
+                android:id="@+id/tvArtist9Desc"
+                android:layout_width="399dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/artist9Desc"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/appText"
+                app:layout_constraintBottom_toTopOf="@id/tvArtist10"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvArtist9" />
+
+            <TextView
+                android:id="@+id/tvArtist10"
+                android:layout_width="293dp"
+                android:layout_height="55dp"
+                android:paddingTop="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/artist10"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="@dimen/artistsText"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/tvArtist10Desc"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvArtist9Desc" />
+
+            <TextView
+                android:id="@+id/tvArtist10Desc"
+                android:layout_width="399dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/artist10Desc"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/appText"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvArtist10" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</FrameLayout>
+

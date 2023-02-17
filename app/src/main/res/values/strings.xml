@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">P3_Navigation_SplashScreen</string>
+    <string name="start">Let\'s Rock</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="artists">Artists</string>
+    <string name="schedule">Schedule</string>
+    <string name="contact">Contact us</string>
+    <string name="saturday">Saturday</string>
+    <string name="saturday22">Saturday July 22</string>
+    <string name="sunday">Sunday</string>
+    <string name="sunday23">Sunday July 23</string>
+    <string name="home">Welcome to a brand new festival that will take place on July 22 and 23.\n Two days fulls of good music where we will be able to enjoy the best of the international scene.</string>
+    <string name="homeFeet">Ticket sales and more information coming soon...</string>
+    <string name="artistsTitle">ARTISTS</string>
+    <string name="artist1">System of a down</string>
+    <string name="artist2">Slipknot</string>
+    <string name="artist3">Korn</string>
+    <string name="artist4">Tool</string>
+    <string name="artist5">Nickelback</string>
+    <string name="artist6">Papa Roach</string>
+    <string name="artist7">In Flames</string>
+    <string name="artist8">Bring me the horizon</string>
+    <string name="artist9">Stone Sour</string>
+    <string name="artist10">Disturbed</string>
+    <string name="ContactUs">Do you have any question? Send us a message and we will reach you as soon as possible.</string>
+    <string name="send">Send</string>
+    <string name="hour1">18:30</string>
+    <string name="hour2">19:30</string>
+    <string name="hour3">20:30</string>
+    <string name="hour4">21:30</string>
+    <string name="hour5">23:00</string>
+    <string name="artist1Desc">System of a Down (also known as SoaD) is an Armenian American heavy metal band formed in Glendale, California, in 1994. The band has sold over 12 million records worldwide, while two of their singles, \"Aerials\" and \"Hypnotize,\" reached number one on Billboard\'s Alternative Songs chart.</string>
+    <string name="artist2Desc">Slipknot is an American alternative metal band formed in 1995 in Des Moines, Iowa, United States. They come to present their latest album titled \"The End So Far\".</string>
+    <string name="artist3Desc">"Korn is an American nu-metal band from Bakersfield, California, United States, formed in 1993. They are considered the pioneers of the nu metal genre along with Deftones. Like other bands of the time, they were the ones that inspired many of the nu metal and alternative metal bands between the 90s and early 2000s.</string>
+    <string name="artist4Desc">Tool is an American progressive metal band that emerged in 1990 in Los Angeles, California. They have sold more than thirteen million albums only in the United States and have produced successful albums that have achieved high levels of sales thanks to their cult status in the music world.</string>
+    <string name="artist5Desc">Nickelback is one of the most commercially successful Canadian groups, having sold over 60 million copies worldwide. They are coming to present their latest album \"Get Rollin\'\".</string>
+    <string name="artist6Desc">Papa Roach is an American rock band from Vacaville, California, formed in 1993. They come to present their eleventh studio album \"Ego Trip\".</string>
+    <string name="artist7Desc">In Flames is a Swedish heavy metal band, formed in Gothenburg in 1990. Alongside At the Gates and Dark Tranquillity, In Flames pioneered the genres known as Swedish death metal and melodic death metal.</string>
+    <string name="artist8Desc">Bring Me the Horizon (abbreviated BMTH) is a British rock band from Sheffield, England. With their most recent album \"Amo\" they have experimented with new sounds such as Electropop or Power Pop, and combinations between other electronic genres.</string>
+    <string name="artist9Desc">Stone Sour is an American rock band formed in Des Moines, Iowa, in 1992. Stone Sour earned the group two Grammy Award nominations, both for Best Metal Performance, for the singles \"Get Inside\", in 2003, and \"Inhale\", in 2004. From their album \"Come What(ever) May\", the group received another Grammy Award nomination for Best Metal Performance.</string>
+    <string name="artist10Desc">Disturbed is a heavy metal and nu metal band formed in Chicago, Illinois. They have won various accolades, having 1 silver record, 19 platinum records, 2 gold singles, and 1 platinum single.</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/artistsFragment"
+        android:icon="@drawable/baseline_music_note_24"
+        android:title="@string/artists" />
+    <item
+        android:id="@+id/bottom_layout"
+        android:icon="@drawable/baseline_pending_actions_24"
+        android:title="@string/schedule" />
+
+    <item
+        android:id="@+id/contactFragment"
+        android:icon="@drawable/baseline_contact_support_24"
+        android:title="@string/contact" />
+</menu>
